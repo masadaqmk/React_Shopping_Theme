@@ -1,0 +1,166 @@
+.menu-container {
+    width:100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.menu {
+    width: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 4px;
+    position: relative;
+    padding: 0 0 0 4px;
+    margin: 0;
+    background-color: #ffffff;
+    height: 303px;
+}
+.menu a, .menu a:link, .menu a:visited, .menu a:focus, span {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #000000;
+
+    text-decoration: none;
+}
+
+
+.menu > li {
+    display: block;
+    text-align: center;
+    margin-left: -4px;
+   
+}
+.menu > li > a {
+    text-align: left;
+    padding: 11px 15px;
+    display: block;
+}
+.menu > li:hover > a {
+    color: #000000;
+}
+.menu > li:hover {
+
+    box-shadow: 0px 3px 1px 0px #d2d2d247;
+}
+/* Megadrop width dropdown */
+ .menu > li > .megadrop {
+    opacity: 0;
+    display: none;
+    visibility: hidden; 
+    position: absolute;
+    list-style: none;
+    top: 0px;
+    left: 253px;
+    width: 855px;
+    min-height: 100%;
+    text-align: left;
+    margin-top: 30px;
+    padding: 0;
+    z-index: 99;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+}
+.menu > li:hover .megadrop {
+    opacity: 1;
+    display: block;
+    visibility: visible;
+    margin-top: 0px;
+}
+.menu ul li:hover:after {
+    color: #227087;
+}
+.menu .col {
+    width: 14.1%;
+    float: left;
+    color:white;
+    margin: 0 0 0 2.2%;
+}
+.menu .col ul {
+    padding: 0;
+    margin: 0;
+}
+.menu .col ul li {
+    padding: 0;
+    list-style: none;
+    font-size: 11px;
+}
+.menu .col h3 {
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+    color: #227087;
+    background: #eee;
+}
+.menu .col ul li a {
+    display: block;
+    padding: 0 0 15px 0;
+    color: #227087;
+}
+.menu .col ul li a:hover {
+    color: #111;
+    text-decoration: underline;
+}
+.menu > li > ul li ul, .menu li >ul li, .menu > li > .megadrop, .menu > li > ul, .menu > li {
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-outs;
+}
+
+
+.sub-menu-category{
+    background-color:#fbe0da !important;
+}
+
+.sub-menu-category h2{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    padding: 11px;
+    font-weight: 500;
+
+}
+
+.sub-menu-title{
+    font-size: 13px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.sub-col{
+    padding: 5px 5px;
+   
+}
+
+.sub-menu-row{
+  
+    padding: 0px 20px;
+}
+
+.sub-menu-list{
+    padding: 0px;
+    list-style: none;
+}
+
+.sub-menu-list li{
+    padding: 6px;
+}
+.sub-menu-list li a{
+    text-align: left;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.menu-icon{
+    height: 15px;
+    margin-top: -2px;
+    margin-right: 7px;
+}
